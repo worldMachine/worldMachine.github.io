@@ -19,8 +19,17 @@ html, body {
     background-color: white;
 }
 
+.absolute {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 .transparent {
     background-color: transparent;
+}
+
+.partial-opacity {
+  opacity: 0.7;
 }
 
 
@@ -106,12 +115,47 @@ html, body {
 
 /* end sidenav*/
 
+.img-circle {
+  border-radius: 50%;
+}
+
 .blue-white-bg {
     background-image: url("../resources/sky-blue-white-2.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+
+
+    /*background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+
+.new-bg {
+  background-image: url("../resources/work-bg.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.note-bg {
+    background-image: url("../resources/note-bg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
     /*background-repeat: no-repeat;
     background-attachment: fixed;*/
@@ -271,6 +315,13 @@ html, body {
     text-align: center;
 }
 
+.nav-text {
+  text-align: left;
+  margin-top: 10px;
+  position: relative;
+  left: 20px;
+}
+
 .panel-tile {
     background: url(resources/slconnected-cube.png) no - repeat center center;
     height: 200px;
@@ -291,6 +342,10 @@ html, body {
 
 .white {
     background-color: white;
+}
+
+.yellow {
+  background-color: #F2EFC2;
 }
 
 
@@ -367,6 +422,8 @@ html, body {
 .padding-top {
     padding-top: 5%;
 }
+
+
 
 .light-opacity {
     opacity: 0.5;
