@@ -315,11 +315,18 @@ html, body {
     text-align: center;
 }
 
-.nav-text {
+/* .nav-text {
   text-align: left;
   margin-top: 10px;
   position: relative;
   left: 20px;
+} */
+
+.nav-text {
+  text-align: left;
+  position: absolute;
+  left: 100px;
+  top: -12px;
 }
 
 .panel-tile {
