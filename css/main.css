@@ -138,6 +138,29 @@ html, body {
     background-attachment: fixed;*/
 }
 
+.blurred-bg {
+    /*background-image: url("../resources/blurred-bg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    height: 100%;
+
+
+    background-position: center;*/
+
+    background: url("../resources/kde-paint-wallpaper.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100%;
+
+}
+
 .new-bg {
   background-image: url("../resources/work-bg.jpg");
   -webkit-background-size: cover;
@@ -227,6 +250,10 @@ html, body {
     height: 40%;
     width: 40%;
     margin: auto;
+}
+
+.img-border {
+  border:1px solid #999;
 }
 
 .right-img {
