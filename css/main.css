@@ -1,0 +1,133 @@
+body {
+/*  background-color: white;*/
+/*  padding: 20px;*/
+  margin: 0;
+	
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	
+}
+h1, h2, h3, p, ul, li, a, Button {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+/*	font-size: 18px;*/
+}
+
+
+#section1 {padding-top:50px;height:100%; }
+#section2 {padding-top:50px; width:100%;}
+#section3 {padding-top:50px;}
+#section4 {padding-top:50px;height:620px;}
+
+.my-face {
+	width: 40%;
+	height: auto;
+}
+
+.my-brand {
+   color: #00B8D4;
+  }
+
+.company-link {
+	color: #00B8D4;
+}
+
+.company-link:hover {
+	text-decoration: none;
+	color: #80DEEA;
+}
+
+/*
+.navbar {
+	border: none;
+ 	outline: none;
+}
+*/
+
+.my-nav {
+	color: #00BFA5;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.my-name {
+	color: #00B8D4;
+/*	color: #00BFA5;*/
+}
+
+h1,h2,h3,h4,li {
+	color: #424242;
+}
+
+.left-img {
+	display: block;
+    padding-bottom: 10%;
+    width: 50%;
+/*    margin: auto;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.padding-bottom {
+    padding-bottom: 5%;
+}
+
+.ten-padding-bottom {
+    padding-bottom: 5%;
+}
+
+
+.padding-top {
+    padding-top: 5%;
+}
+
+.right-img {
+	
+    padding-top: 10%;
+    height: 40%;
+    width: 40%;
+    margin: auto;
+    padding-bottom: 17%;
+}
+
+.center-block {
+    transition-duration: 0.5s;
+}
+
+.center-block:hover {
+    filter: brightness(125%);
+/*    background-color: #3e8e41*/
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+}
+
+.center-block:active {
+/*  background-color: #3e8e41;*/
+/*  box-shadow: 0 5px #666;*/
+  transform: translateY(10px);
+}
+
+.nav-img {
+	color: black;
+	text-decoration: none;
+}
+
+.nav-img:hover {
+    opacity: 0.5;
+	
+}
+
+.link-text {
+	color: #00B8D4;
+	text-decoration: none;
+}
+
+.link-text:hover {
+	color: #80DEEA;
+	text-decoration: none;
+}
+
+.light-padding-bottom {
+	padding-bottom: 2%;
+}
