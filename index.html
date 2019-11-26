@@ -3,7 +3,7 @@
 	<title>K. Brady Davis</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="icon" type="image/png" href="resources/developer-icon.png" />
+	<link rel="icon" type="image/png" href="resources/3d-outlined-shape.png" />
 	<link rel="stylesheet" href="css/main.css"/>
 </head>
 
@@ -12,6 +12,7 @@
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top my-nav">
 	  <!-- <a class="navbar-brand nav-col" href="#">KBD</a> -->
+      <!-- <img src="resources/3d-outlined-shape.png" style="height:25px;width:25px;" />  -->
       <a class="navbar-brand nav-col" href="#">KBD</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
@@ -21,17 +22,17 @@
 		<ul class="navbar-nav mr-auto">
 
 		  <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse">
-			<a class="nav-link" href="#section1" >Home <span class="sr-only">(current)</span></a>
+			<a class="nav-link" href="#Home" >Home <span class="sr-only">(current)</span></a>
 		  </li>
 
 			<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-				<a class="nav-link" href="#section2">Education</a>
+				<a class="nav-link" href="#Education">Education</a>
 			</li>
           <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-			  <a class="nav-link" href="#section3">Work</a>
+			  <a class="nav-link" href="#Work">Work</a>
 			</li>
           <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-			  <a class="nav-link" href="#section4" >Contact</a>
+			  <a class="nav-link" href="#Contact" >Contact</a>
 			</li>
 
 		</ul>
@@ -39,15 +40,12 @@
 	  </div>
 	</nav>
 
-<div id="section1" id="main" class="container">
+<div id="Home" id="main" class="container">
   <div class="container-fluid text-center page-title padding-top padding-bottom">
       <h1 class="my-name">K. Brady Davis</h1>
 	  <h4 class="description padding-bottom">Software Engineer, Graduate Student, Tech Enthusiast</h4>
-      <!-- <div class="container text-center"> -->
-      <!-- <div class="circle-img text-center"> -->
-        <img id="home-pic" src="resources/brady-profile-pic-2.jpg" class="rounded-circle profile-pic">
-      <!-- </div> -->
-      <!-- </div> -->
+    <img id="home-pic" src="resources/brady-profile-pic-2.jpg" class="rounded-circle profile-pic">
+
   </div>
 
 
@@ -57,7 +55,7 @@
 
 
 
-	<div id="section2" class="container">
+	<div id="Education" class="container">
 		<br>
 <!--		<h2>Education</h2>-->
 		<div id="main" class="">
@@ -74,12 +72,13 @@
                 <img class="center-block mx-auto left-img" src="resources/usc-logo.png">
             </a>
         </div>
-        <div class="col-sm-6">
-            <h2 class="text-center padding-top"> University of Southern California</h2>
-            <h3 class="text-center padding-bottom">Los Angeles, California </h3>
-            <h2 class="text-center">MS Computer Science:</h2>
-            <h2 class="text-center">Software Engineering</h2>
-            <h4 class="text-center">May 2020</h4>
+        <div class="col-sm-6 justify-content-center align-self-center">
+            <!-- <div class="justify-content-center align-self-center"> -->
+            <h2 class="text-center padding-top ">University of Southern California</h2>
+            <h4 class="text-center">MS Computer Science: <br>Software Engineering</h4>
+            <p class="text-center">Los Angeles, California | May 2020</p>
+            <!-- </div> -->
+
         </div>
       </div>
     </div>
@@ -94,12 +93,12 @@
                 <img class="center-block mx-auto left-img" src="resources/sju-logo.png">
             </a>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 justify-content-center align-self-center">
             <h2 class="text-center padding-top">St. John's University</h2>
-            <h3 class="text-center padding-bottom">New York, New York</h2>
-            <h2 class="text-center">BS Computer Science</h1>
-            <!-- <h3 class="text-center">Philosophy and International Studies</h2> -->
-            <h4 class="text-center">May 2018</h4>
+            <h4 class="text-center">BS Computer Science</h4>
+            <p class="text-center">New York, New York | May 2018</p>
+
+
         </div>
       </div>
     </div>
@@ -115,14 +114,14 @@
 <!--	WORK SECTION-->
 
 
-	<div id="section3" class="container">
+	<div id="Work" class="container">
 		<br>
 		<div id="main" class="">
   <div class="container text-center page-title padding-bottom">
       <h1 class="padding-bottom">Work</h1>
   </div>
 
-  <div class="container-fluid ">
+  <!-- <div class="container-fluid "> -->
     <div class="row">
       <div class="col-sm-6">
           <a href="http://swarmstud.io">
@@ -145,9 +144,9 @@ branding. Currently working to make web-based AR the next stop for entertainment
           </div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 
-    <div class="container-fluid ">
+    <!-- <div class="container-fluid "> -->
     <div class="row">
       <div class="col-sm-6">
           <a href="https://www.mgmresorts.com/en/company/careers/internships/technology.html">
@@ -165,9 +164,9 @@ branding. Currently working to make web-based AR the next stop for entertainment
           </ul>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 
-    <div class="container-fluid ">
+    <!-- <div class="container-fluid "> -->
     <div class="row">
       <div class="col-sm-6">
           <a href="https://burg.community">
@@ -185,10 +184,10 @@ branding. Currently working to make web-based AR the next stop for entertainment
           </ul>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 
   <div class="">
-    <div class="container-fluid ">
+    <!-- <div class="container-fluid "> -->
       <div class="row">
         <div class="col-sm-6">
             <a href="https://p1group.com">
@@ -212,11 +211,11 @@ branding. Currently working to make web-based AR the next stop for entertainment
 
 
       </div>
-    </div>
+    <!-- </div> -->
 
   </div>
 
-  <div class="container-fluid ">
+  <!-- <div class="container-fluid "> -->
     <div class="row">
       <div class="col-sm-6">
           <a href="https://slconnected.com">
@@ -235,9 +234,9 @@ branding. Currently working to make web-based AR the next stop for entertainment
           </ul>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 
-	<div class="container-fluid ">
+	<!-- <div class="container-fluid "> -->
     <div class="row">
       <div class="col-sm-6">
           <a href="http://thenewsalligator.com">
@@ -248,16 +247,16 @@ branding. Currently working to make web-based AR the next stop for entertainment
 		  <h2 class="text-center padding-top"><a class="company-link" href="http://thenewsalligator.com">News Alligator</a></h2>
           <h3 class="text-center padding-bottom">Personal Project</h3>
           <ul class="ten-padding-bottom">
-            <a class="text-center">Created and launched news aggregator website with search and categories.
-HTML, JavaScript, jQuery.</a>
+        <p class="text-center">Created and launched news aggregator website with search and categories.
+HTML, JavaScript, jQuery.</p>
 
           </ul>
       </div>
-    </div>
+    <!-- </div> -->
   </div>
 
   <div class="padding-bottom">
-    <div class="container-fluid ">
+    <!-- <div class="container-fluid "> -->
       <div class="row">
         <div class="col-sm-6 padding-top">
             <a href="http://southlandind.com">
@@ -285,7 +284,7 @@ various subcontractors and automated BIM processes for large scale construction 
           </ul>
         </div>
       </div>
-    </div>
+    <!-- </div> -->
   </div>
 
 </div>
@@ -295,7 +294,7 @@ various subcontractors and automated BIM processes for large scale construction 
 	<hr>
 <!--	CONTACT SECTION	-->
 
-	<div id="section4" class="container">
+	<div id="Contact" class="container">
 		<div class="container text-center page-title light-padding-bottom">
 			  <h1 class="padding-bottom">Contact</h1>
 		  </div>

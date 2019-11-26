@@ -12,14 +12,14 @@ h1, h2, h3, p, ul, li, a, Button {
 }
 
 
-#section1 {padding-top:50px;height:100%; }
-#section2 {padding-top:50px; width:100%;}
-#section3 {padding-top:50px;}
-#section4 {padding-top:50px;height:620px;}
+#Home {padding-top:50px;height:100%; }
+#Education {padding-top:50px; width:100%;}
+#Work {padding-top:50px;}
+#Contact {padding-top:50px;height:620px;}
 
 .profile-pic {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
 }
 
 .circle-img {
@@ -49,6 +49,10 @@ h1, h2, h3, p, ul, li, a, Button {
   .my-face {
       width: 60%;
       height: auto
+}
+.profile-pic {
+    width: 250px;
+    height: 250px;
 }
 .circle-img img {
      /* width: 40%;
@@ -102,7 +106,8 @@ h1,h2,h3,h4,li {
 .left-img {
 	display: block;
     padding-bottom: 10%;
-    width: 50%;
+    max-width: 50%;
+    /* width: 50%; */
 /*    margin: auto;*/
 	margin-left: auto;
 	margin-right: auto;
