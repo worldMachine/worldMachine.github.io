@@ -104,12 +104,14 @@ h1, h2, h3, p, ul, li, a, Button {
 }
 
 #navbar-toggler:active{
+    border: none;
     outline: white;
     box-shadow: none;
 }
 
 .navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active {
     outline: none;
+    border: none;
     box-shadow: none;
   }
 
