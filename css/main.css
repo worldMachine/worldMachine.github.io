@@ -14,6 +14,17 @@ h1, h2, h3, p, ul, li, a, Button {
 /*	font-size: 18px;*/
 }
 
+.arrow {
+	display: none;
+}
+.view-details-btn {
+	/* align-self: center; */
+	/* width: 100%; */
+}
+
+.popover{
+    max-width: 50%; /* Max Width of the popover (depending on the container!) */
+}
 
 #Home {padding-top:50px;height:100%; }
 #Education {padding-top:50px; width:100%;}
