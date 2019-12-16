@@ -1,3 +1,6 @@
+/* Theme Color  */
+/* tealish:#00B8D4 */
+
 body {
 /*  background-color: white;*/
 /*  padding: 20px;*/
@@ -16,6 +19,21 @@ h1, h2, h3, p, ul, li, a, Button {
 #Education {padding-top:50px; width:100%;}
 #Work {padding-top:50px;}
 #Contact {padding-top:50px;height:620px;}
+
+
+/* Bootstrap Button Override  */
+.btn-outline-primary{color:#00B8D4;background-color:transparent;background-image:none;border-color:#00B8D4}.btn-outline-primary:hover{color:white;background-color:#00B8D4;border-color:#00B8D4;}
+.btn-outline-primary:focus,.btn-outline-primary.focus{box-shadow:0 0 0 .2rem rgba(0,128,128,0.5)}
+.btn-outline-primary.disabled,.btn-outline-primary:disabled{color:#00B8D4;background-color:transparent}
+.btn-outline-primary:not(:disabled):not(.disabled):active,.btn-outline-primary:not(:disabled):not(.disabled).active,.show>.btn-outline-primary.dropdown-toggle{color:#fff;background-color:#009a9a;border-color:#00B8D4}
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,.btn-outline-primary:not(:disabled):not(.disabled).active:focus,.show>.btn-outline-primary.dropdown-toggle:focus{box-shadow:0 0 0 .2rem rgba(0,128,128,0.5)}
+
+.btn-primary:hover{color:#fff;background-color:#00B8D4;border-color:#00BCD4}
+.btn-primary:focus,.btn-primary.focus{box-shadow:0 0 0 .2rem rgba(0,90,90,0.5)}
+.btn-primary.disabled,.btn-primary:disabled{color:#fff;background-color:#00B8D4;border-color:#00BCD4}
+.btn-primary:not(:disabled):not(.disabled):active,.btn-primary:not(:disabled):not(.disabled).active,.show>.btn-primary.dropdown-toggle{color:#fff;background-color:#00BCD4;border-color:#000}
+.btn-primary:not(:disabled):not(.disabled):active:focus,.btn-primary:not(:disabled):not(.disabled).active:focus,.show>.btn-primary.dropdown-toggle:focus{box-shadow:0 0 0 .2rem rgba(0,90,90,0.5)}
+
 
 .profile-pic {
     width: 350px;
@@ -46,23 +64,14 @@ h1, h2, h3, p, ul, li, a, Button {
 }
 
 @media only screen and (max-width: 800px) {
-  .my-face {
-      width: 60%;
-      height: auto
-}
-.profile-pic {
-    width: 250px;
-    height: 250px;
-}
-.circle-img img {
-     /* width: 40%;
-    height: auto; */
-    /* position: absolute; */
-    /* left: 50%; */
-    /* transform: translateX(-50%);
-    margin-left: 50%; */
-}
-
+    .my-face {
+        width: 60%;
+        height: auto
+    }
+    .profile-pic {
+        width: 250px;
+        height: 250px;
+    }
 }
 
 .my-brand {
@@ -93,6 +102,16 @@ h1, h2, h3, p, ul, li, a, Button {
   border: none;
   outline: none;
 }
+
+#navbar-toggler:active{
+    outline: white;
+    box-shadow: none;
+}
+
+.navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
 
 .my-name {
 	color: #00B8D4;
