@@ -10,10 +10,7 @@
 //     }
 // });
 
-$( '.navbar-nav a' ).on( 'click', function () {
-	$( '.navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
-	$( this ).parent( 'li' ).addClass( 'active' );
-});
+
 
 // if ($(window).width() < 960) {
 //     // alert('Less than 960');
@@ -25,6 +22,14 @@ $( '.navbar-nav a' ).on( 'click', function () {
 //     // alert('More than 960');
     
 //  }
+
+
+// --------------------------------------------------------
+
+// $( '.navbar-nav a' ).on( 'click', function () {
+// 	$( '.navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
+// 	$( this ).parent( 'li' ).addClass( 'active' );
+// });
 
 $(function() {
     if($(window).width() <= 960) {
