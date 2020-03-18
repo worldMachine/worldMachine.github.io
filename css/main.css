@@ -67,10 +67,10 @@ h1,h2,h3,h4,li {
 	color: green;
 }
 
-.my-nav {
-    color: #00BFA5;
-    /* display: none; */
+.my-nav { 
+    background-color: #000;
 }
+
 
 /* Bootstrap Button Override  */
 .btn-outline-primary{color:#00B8D4;background-color:transparent;background-image:none;border-color:#00B8D4}.btn-outline-primary:hover{color:white;background-color:#00B8D4;border-color:#00B8D4;}
@@ -96,10 +96,10 @@ h1,h2,h3,h4,li {
     max-width: 50%;
 } */
 
-#Home {padding-top:50px;height:100%; }
+#Home {padding-top:50px;height:100vh; }
 #Education {padding-top:50px; width:100%;}
 #Work {padding-top:50px;}
-#Contact {padding-top:50px;height:620px;}
+#Contact {padding-top:50px;height:100vh;}
 
 
 .home-section {
@@ -159,6 +159,7 @@ header {
   @media (pointer: coarse) and (hover: none) {
     #main {
         padding-top: 25%;
+        height: 150%;
     }
     header {
         /* padding-top: 50%; */
@@ -166,9 +167,9 @@ header {
         /* height: 100vh; */
       /* background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll; */
     }
-    header video {
-      /* display: none; */
-    }
+    /* header video {
+      display: none;
+    } */
   }
 
 
@@ -238,8 +239,8 @@ header {
         height: 250px;
     }
     .contact-icons {
-        padding-top: 50px;
-        padding-bottom: 500px;
+        /* padding-top: 50px;
+        padding-bottom: 500px; */
     }
 
     .my-nav {
@@ -267,6 +268,7 @@ header {
 .navbar-toggler {
   border: none;
   outline: none;
+  float: right;
 }
 
 #navbar-toggler:active{
@@ -374,7 +376,7 @@ header {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #000;
     overflow-x: hidden;
     padding-top: 20px;
   }
