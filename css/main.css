@@ -8,6 +8,7 @@ body {
 font-family: 'VT323', monospace;
 /* font-family: 'Space Mono', monospace; */
 background-color: #000000;
+/* opacity: 50%; */
 color: #F5F5F5;
 }
 h1, h2, h3, p, ul, li, a, Button {
@@ -15,6 +16,11 @@ h1, h2, h3, p, ul, li, a, Button {
 /*	font-size: 18px;*/
 font-family: 'VT323', monospace;
 /* font-family: 'Space Mono', monospace; */
+}
+
+.bg-video {
+    position: fixed;
+    z-index: -1;
 }
 
 .my-name {
@@ -41,7 +47,7 @@ a h3:hover {
 }
 
 .card {
-    background-color: black;
+    background-color: transparent;
 }
 
 h1,h2,h3,h4,li {
@@ -68,7 +74,8 @@ h1,h2,h3,h4,li {
 }
 
 .my-nav { 
-    background-color: #000;
+    color: #00c853;
+    background-color: none;
 }
 
 
@@ -117,7 +124,7 @@ h1,h2,h3,h4,li {
 
 header {
     position: relative;
-    background-color: black;
+    /* background-color: black; */
     height: 100vh;
     min-height: 25rem;
     width: 100%;
@@ -239,10 +246,10 @@ header {
         width: 250px;
         height: 250px;
     }
-    .contact-icons {
+    /* .contact-icons { */
         /* padding-top: 50px;
         padding-bottom: 500px; */
-    }
+    /* } */
 
     .my-nav {
         display: block;
@@ -331,6 +338,23 @@ header {
     padding-bottom: 17%;
 }
 
+.rotate-img {
+    -webkit-transition-duration: 1.5s;
+    -moz-transition-duration: 1.5s;
+    -o-transition-duration: 1.5s;
+    transition-duration: 1.5s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+
+.rotate-img:hover {
+    /* filter: brightness(125%); */
+    cursor: pointer;
+
+}
+
 .center-block {
     transition-duration: 0.5s;
 }
@@ -377,7 +401,7 @@ header {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #000;
+    /* background-color: #000; */
     overflow-x: hidden;
     padding-top: 20px;
   }
@@ -391,5 +415,12 @@ header {
   }
   
   .sidenav a:hover {
-    color: #f1f1f1;
+    /* color: #f1f1f1; */
+    /* color: #4CAF50; */
+    color: #2E7D32;
+    /* color: #00C853; */
+  }
+
+  .selected-green {
+    color: #00C853 !important;
   }

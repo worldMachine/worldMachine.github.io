@@ -19,7 +19,7 @@ scrollItems = menuItems.map(function(){
   var item = $($(this).attr("href"));
   if (item.length) { return item; }
 });
-console.log(menuItems)
+// console.log(menuItems)
 // Bind to scroll
 $(window).scroll(function(){
 // Get container scroll position
@@ -57,14 +57,14 @@ if (lastId !== id) {
    var item = $($(this).attr("href"));
    if (item.length) { return item; }
  });
- console.log(sideMenuItems)
+//  console.log(sideMenuItems)
  // Bind to scroll
  $(window).scroll(function(){
  // Get container scroll position
 //  var fromTop = $(this).scrollTop();
 //  console.log(fromTop)
 var fromTop = $(this).scrollTop()+topMenuHeight;
-console.log(fromTop)
+// console.log(fromTop)
  
  // Get id of current scroll item
  var cur = sideScrollItems.map(function(){
@@ -74,13 +74,22 @@ console.log(fromTop)
  // Get the id of the current element
  cur = cur[cur.length-1];
  var sideId = cur && cur.length ? cur[0].id : "";
- console.log(sideId)
+//  console.log(sideId)
  
  if (lastSideId !== sideId) {
     lastSideId = sideId;
     // Set/remove active class
-    sideMenuItems.removeClass("text-white");
-    sideMenuItems.filter("[href='#"+sideId+"']").addClass("text-white");
+    sideMenuItems.removeClass("selected-green");
+    sideMenuItems.filter("[href='#"+sideId+"']").addClass("selected-green");
+    if (sideId != "Home") {
+      
+      $("#mobile-nav").css('background-color','#000');
+      // $("#bg-video").css('opacity','50%');
+    }
+    else {
+      console.log("sideId is Home")
+      $("#mobile-nav").css('background-color','transparent');
+    }
     //   .end().filter("[href='#"+id+"']").addClass("text-white");
  }                   
  });
