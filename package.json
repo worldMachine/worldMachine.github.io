@@ -5,9 +5,9 @@
   "homepage": "https://worldMachine.github.io/worldMachine.github.io",
   "scripts": {
     "predeploy": "next build",
-    "deploy": "next build && next export -o out && touch out/.nojekyll",
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
+    "deploy": "aws s3 sync out/ s3://kbradydavis-website --acl public-read",
     "start": "next start",
     "lint": "next lint"
   },
