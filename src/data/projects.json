@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "imageLink": "https://media-hosting-bucket.s3.us-west-2.amazonaws.com/kbradydavis/cloudsurf.svg",
+    "link": "https://cloudsurfsoftware.com/",
+    "title": "CloudSurf Software",
+    "description": "CloudSurf Software is a company I founded in 2020 as a platform to build software for small businesses, collaborate with enthusiastic software engineers, and teach everything I know to anyone willing to learn."
+  },
+  {
+    "id": 2,
+    "imageLink": "https://media-hosting-bucket.s3.us-west-2.amazonaws.com/kbradydavis/eif-logo-white.png",
+    "link": "https://educationinnovation.foundation/",
+    "title": "Education Innovation Foundation",
+    "description": "I founded Education Innovation Foundation in 2023 with a mission to empower and transform the lives of students in Nevada and across the United States through innovative educational initiatives."
+  },
+  {
+    "id": 3,
+    "imageLink": "https://media-hosting-bucket.s3.us-west-2.amazonaws.com/kbradydavis/lucaventures.png",
+    "link": "https://luca.vc/",
+    "title": "Luca Ventures",
+    "description": "Website with custom animations for Luca Ventures, a fintech venture fund that offers liquidity and investments for pre-IPO companies through special purpose investment funds."
+  },
+  {
+    "id": 4,
+    "imageLink": "https://media-hosting-bucket.s3.us-west-2.amazonaws.com/kbradydavis/devangels.png",
+    "link": "https://www.angels.dev/",
+    "title": "Dev Angels",
+    "description": "Website with custom animations for Dev Angels, an angel group that makes early investments in developer-facing startups."
+  },
+  {
+    "id": 5,
+    "imageLink": "https://media-hosting-bucket.s3.us-west-2.amazonaws.com/kbradydavis/bizzy-body.png",
+    "link": "https://apps.apple.com/gb/app/bizzy-body/id1581910243",
+    "title": "Bizzy Body",
+    "description": "iOS mobile app for working out featuring custom video player, schedule and account services for Bizzy Body Fitness, a company that provides a variety of health services including personal training, nutrition guidance, bootcamps, and at-home or gym workout programs."
+  },
+  {
+    "id": 6,
+    "imageLink": "https://media-hosting-bucket.s3.us-west-2.amazonaws.com/kbradydavis/zachtaylor.png",
+    "link": "https://zachleetaylor.com/portfolio?collection=0",
+    "title": "Zach Taylor",
+    "description": "Website with custom art gallery and viewing controls for Zachary Taylor, a photographer and mixed-media artist who employs a pop art surrealist style."
+  },
+  {
+    "id": 7,
+    "imageLink": "https://photo-hosting-bucket.s3-us-west-1.amazonaws.com/kbd/projects/king-yosef-screen-min.png",
+    "link": "https://kingyosef.com/about",
+    "title": "King Yosef",
+    "description": "Website and custom request-a-show United States map component built for the next-level producer/song-writer King Yosef."
+  },
+  {
+    "id": 8,
+    "imageLink": "https://photo-hosting-bucket.s3-us-west-1.amazonaws.com/kbd/projects/donovan-campbell-screen-min.png",
+    "link": "https://donovanjcampbell.com/",
+    "title": "Donovan Campbell",
+    "description": "Website with custom Leave a Review component and admin portal for a mortgage professional in the Las Vegas Community."
+  },
+  {
+    "id": 10,
+    "imageLink": "/resources/bowties-screen.jpg",
+    "link": "https://bowtiesbridal.com/",
+    "title": "Bowties Bridal",
+    "description": "Full web design revamp, hosting and maintenance."
+  },
+  {
+    "id": 11,
+    "imageLink": "https://photo-hosting-bucket.s3-us-west-1.amazonaws.com/kbd/projects/tuxedo-screen.png",
+    "link": "https://bowtiestuxedo.com/",
+    "title": "Bowties Tuxedo",
+    "description": "Full web design revamp, hosting and maintenance."
+  },
+  {
+    "id": 12,
+    "imageLink": "https://media-hosting-bucket.s3.us-west-2.amazonaws.com/kbradydavis/sophia-leon.png",
+    "link": "https://sophialion.com/art",
+    "title": "Sophia Leon",
+    "description": "Website for the art of Sophia Leon."
+  },
+  {
+    "id": 14,
+    "imageLink": "https://media-hosting-bucket.s3.us-west-2.amazonaws.com/kbradydavis/fingerprintingnv.png",
+    "link": "http://fingerprintingnevada.com/",
+    "title": "Fingerprinting Nevada",
+    "description": "Website and online ad campaign design and management for Fingerprinting servicer in Las Vegas."
+  },
+  {
+    "id": 15,
+    "imageLink": "/resources/giftbuddy-logo.png",
+    "link": "https://greenbay.usc.edu/cs577b/spring2020/projectlist/team12/FD/index.html",
+    "title": "GiftBuddy",
+    "description": "iOS and Android social media gift sharing and suggestion app."
+  },
+  {
+    "id": 16,
+    "imageLink": "https://photo-hosting-bucket.s3-us-west-1.amazonaws.com/kbd/projects/alligator-screen-min.png",
+    "link": "http://alligatorfeed.com/",
+    "title": "Alligator Feed",
+    "description": "News aggregator website."
+  },
+  {
+    "id": 17,
+    "imageLink": "https://photo-hosting-bucket.s3-us-west-1.amazonaws.com/kbd/projects/ash-vintage-screen.png",
+    "link": "https://ashvintage.com/clothing",
+    "title": "Ash Vintage",
+    "description": "Website and custom instagram integration for Ash Vintage, a vintage fashion brand founded and inspired by the city of Chicago."
+  },
+  {
+    "id": 18,
+    "imageLink": "http://localhost:3000/resources/swarm.jpg",
+    "link": "http://swarmstud.io/",
+    "title": "Swarm AR",
+    "description": "Augmented reality web app with custom models for advertising and branding."
+  },
+  {
+    "id": 19,
+    "imageLink": "https://media-hosting-bucket.s3.us-west-2.amazonaws.com/kbradydavis/fitex.png",
+    "link": "https://fitexcertification.com/",
+    "title": "FitEx",
+    "description": "Fitex certification website."
+  }
+]

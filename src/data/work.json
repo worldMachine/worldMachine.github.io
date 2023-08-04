@@ -1,0 +1,77 @@
+[
+  {
+    "title": "CloudSurf Software",
+    "position": "Founder, CEO",
+    "location": "Las Vegas, NV",
+    "years": "2020 - Present",
+    "description": "Improve your business with software. Whether you need an app or website for your company, advanced software solution or enhanced web presence, CloudSurf can build whatever your business needs to succeed.",
+    "imageLink": "https://media-hosting-bucket.s3.us-west-2.amazonaws.com/kbradydavis/cloudsurf.svg",
+    "link": "https://cloudsurfsoftware.com/"
+  },
+  {
+    "title": "Parrot Finance",
+    "position": "Founding Engineer",
+    "location": "San Francisco, CA",
+    "years": "2023 - Present",
+    "description": "Invest in stocks, mimic trades and join the flock!",
+    "imageLink": "https://media-hosting-bucket.s3.us-west-2.amazonaws.com/kbradydavis/parrot-logo.svg",
+    "link": "https://www.parrotfinance.io/"
+  },
+  {
+    "title": "Staax",
+    "position": "Founding Engineer",
+    "location": "San Francisco, CA",
+    "years": "2022 - Present",
+    "description": "Staax makes investing as easy as receiving payments from your friends.",
+    "imageLink": "https://media-hosting-bucket.s3.us-west-2.amazonaws.com/kbradydavis/staax-logo.png",
+    "link": "https://staaxapp.com/"
+  },
+  {
+    "title": "MGM Resorts International",
+    "position": "Software Engineer II",
+    "location": "Las Vegas, NV",
+    "years": "2020 - 2022",
+    "description": "Technical Lead for Digital Key Service company wide, led efforts to replace existing components and increase availability for mobile digital hotel keys. Created MGM SupportBot to assist developers. Created Data Quality Manager API which serves standard data to backend services. Created Guest Services UI for hotel ops to configure hotel options. C#, .NET, Bot Framework, React",
+    "imageLink": "https://media-hosting-bucket.s3.us-west-2.amazonaws.com/kbradydavis/mgm-logo.png",
+    "link": "https://github.com/customer-stories/mgm-resorts"
+  },
+
+  {
+    "title": "The Burg",
+    "position": "Backend Development Intern",
+    "location": "Los Angeles, CA",
+    "years": "2018 - 2019",
+    "description": "Developed location-based news web scraper for the News section of The Burg app for thousands of users using Node.js, Express, AWS, JavaScript and MySQL.",
+    "imageLink": "https://media-hosting-bucket.s3.us-west-2.amazonaws.com/kbradydavis/burg-logo-inverted.png",
+    "link": "https://burg.community/"
+  },
+  {
+    "title": "P1 Group",
+    "position": "Project Engineer",
+    "location": "Las Vegas, NV",
+    "years": "2017 - 2018",
+    "description": "Implemented scripts to automate naming and sorting of thousands construction project documents and models using Python, OCR and Bluebeam.",
+    "imageLink": "https://media-hosting-bucket.s3.us-west-2.amazonaws.com/kbradydavis/p1-logo.png",
+    "link": "https://p1group.com/",
+    "imageHalfSize": true
+  },
+  {
+    "title": "SLConnected",
+    "position": "Software Developer, Partner",
+    "location": "Salt Lake City, UT",
+    "years": "2016 - 2017",
+    "description": "Created custom, business-facing java web apps to automate business processes for clients using Java, Tomcat, and PostgreSQL.",
+    "imageLink": "https://media-hosting-bucket.s3.us-west-2.amazonaws.com/kbradydavis/slconnected-logo.png",
+    "link": "https://slconnected.com/",
+    "imageHalfSize": true
+  },
+  {
+    "title": "Southland Industries",
+    "position": "Building Information Modeling Support Specialist",
+    "location": "Las Vegas, NV",
+    "years": "2016",
+    "description": "Designed, corrected and synchronized 3D models of mechanical systems from various subcontractors and automated BIM processes for large scale construction projects using Revit, AutoCAD and Python.",
+    "imageLink": "https://media-hosting-bucket.s3.us-west-2.amazonaws.com/kbradydavis/southland-logo.png",
+    "link": "http://southlandind.com/"
+  }
+]
