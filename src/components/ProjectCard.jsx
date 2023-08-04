@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function ProjectCard({ id, imageLink, link, title, description }) {
   return (
     <div className="col-lg-6 mb-5">
@@ -14,7 +16,9 @@ function ProjectCard({ id, imageLink, link, title, description }) {
           }}
         >
           <a href={link} target="_blank">
-            <img
+            <Image
+              width={300}
+              height={300}
               className="card-img-top center-block"
               src={imageLink}
               alt={`${id} screen`}

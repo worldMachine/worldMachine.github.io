@@ -1,8 +1,11 @@
 {
-  "name": "kbradydavis-react",
+  "name": "world-machine",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://worldMachine.github.io/worldMachine.github.io",
   "scripts": {
+    "predeploy": "next build",
+    "deploy": "next build && next export -o out && touch out/.nojekyll",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -20,6 +23,7 @@
     "bootstrap": "^5.3.0",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.10",
+    "gh-pages": "^5.0.0",
     "install": "^0.13.0",
     "jquery": "^3.7.0",
     "lottie-react-web": "^2.2.2",

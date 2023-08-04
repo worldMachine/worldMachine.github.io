@@ -97,8 +97,8 @@ Button {
 
 .down-arrow-lottie {
   position: absolute;
-  top: 92vh;
-  left: 45vw;
+  top: 87vh;
+  left: calc(50vw - 20px);
   display: block;
 }
 
@@ -251,7 +251,23 @@ li {
 }
 #Contact {
   padding-top: 50px;
-  height: 100vh;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#spin-image {
+  transition: transform 0.8s;
+}
+
+#spin-image.rotate {
+  animation: spin 1s linear infinite;
 }
 
 .home-section {
