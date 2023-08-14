@@ -101,7 +101,7 @@
 
 // export default CustomNavBar;
 
-import { faHamburger } from "@fortawesome/free-solid-svg-icons";
+import { faHamburger, faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
@@ -167,7 +167,7 @@ function CustomNavBar() {
           </a>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
-          <FontAwesomeIcon icon={faHamburger} />
+          <FontAwesomeIcon icon={faBars} />
         </Navbar.Toggle>
 
         <Navbar.Collapse id="basic-navbar-nav">
