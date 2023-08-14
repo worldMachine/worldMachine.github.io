@@ -37,4 +37,3 @@ jobs:
           aws-region: us-west-2
       - name: Deploy to S3
         run: yarn run deploy
-        continue-on-error: true
