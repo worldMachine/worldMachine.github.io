@@ -2,20 +2,12 @@
 import Image from "next/image";
 // import styles from "./page.module.css";
 // import "@/styles/global.css";
+import dynamic from "next/dynamic";
 
-import "bootstrap/dist/css/bootstrap.min.css";
-// import dynamic from "next/dynamic";
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap";
+// import "bootstrap/dist/css/bootstrap.css";
 
-// const BootstrapBundle = dynamic(
-//   () => import('bootstrap/dist/js/bootstrap.bundle.min'),
-//   { ssr: false }
-// );
-
-// import "bootstrap/dist/js/bootstrap.bundle.min";
-
-import "bootstrap";
-import "bootstrap/dist/css/bootstrap.css";
-// import "bootstrap/dist/js/bootstrap.js";
 import $ from "jquery";
 import Popper from "popper.js";
 
@@ -49,6 +41,13 @@ import { useCallback, useEffect, useState } from "react";
 
 export default function Home() {
   const [colorChange, setColorChange] = useState(false);
+
+  useEffect(() => {
+    require("bootstrap/dist/js/bootstrap.bundle.min.js");
+    require("bootstrap/dist/css/bootstrap.min.css");
+    require("bootstrap");
+    require("bootstrap/dist/css/bootstrap.css");
+  }, []);
 
   useEffect(() => {
     const changeNavbarColor = () => {
