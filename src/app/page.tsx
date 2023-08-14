@@ -4,11 +4,18 @@ import Image from "next/image";
 // import "@/styles/global.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
+// import dynamic from "next/dynamic";
+
+// const BootstrapBundle = dynamic(
+//   () => import('bootstrap/dist/js/bootstrap.bundle.min'),
+//   { ssr: false }
+// );
+
+// import "bootstrap/dist/js/bootstrap.bundle.min";
 
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/js/bootstrap.js";
+// import "bootstrap/dist/js/bootstrap.js";
 import $ from "jquery";
 import Popper from "popper.js";
 
