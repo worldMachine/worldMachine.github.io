@@ -23,6 +23,7 @@ import WorkCard from "@/components/WorkCard";
 
 import projectsData from "@/data/projects.json";
 import workData from "@/data/work.json";
+import bradyImage from "../../public/resources/brady-head.png";
 
 import {
   faBriefcase,
@@ -143,7 +144,7 @@ export default function Home() {
             {/* <!--  <Image id="home-pic" src="resources/brady-head.png" className="rounded-circle profile-pic center-block"> */}
             <Image
               id="spin-image"
-              src="/resources/brady-head.png"
+              src={bradyImage}
               alt="Hello there"
               width={200}
               height={200}

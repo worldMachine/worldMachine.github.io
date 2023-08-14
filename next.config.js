@@ -5,6 +5,7 @@ const nextConfig = {
   assetPrefix: "",
   output: "export",
   images: {
+    unoptimized: true,
     // domains: [
     //   "media-hosting-bucket.s3.us-west-2.amazonaws.com",
     //   "photo-hosting-bucket.s3-us-west-1.amazonaws.com",
