@@ -19,10 +19,10 @@ function ProjectCard({ id, imageLink, link, title, description }) {
             <Image
               width={300}
               height={300}
-              className="card-img-top center-block"
+              className="card-img-top center-block project-card-img"
               src={imageLink}
               alt={`${id} screen`}
-              style={{ marginTop: "auto", marginBottom: "auto" }}
+              // style={{ marginTop: "auto", marginBottom: "auto" }}
             />
           </a>
         </div>

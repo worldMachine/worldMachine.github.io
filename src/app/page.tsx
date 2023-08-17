@@ -195,7 +195,7 @@ export default function Home() {
               <Image
                 width={250}
                 height={120}
-                className="center-block mx-auto left-img larger-icon"
+                className="center-block mx-auto left-img"
                 src="/resources/usc-logo.png"
                 alt="usc"
               />
